@@ -12,6 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "node-zabbix-sender": "^1.1.0",
     "zabbix-nodejs": "^1.0.0"
   }
 }

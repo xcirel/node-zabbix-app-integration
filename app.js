@@ -8,7 +8,7 @@ const zabbixSender = require('zabbix-nodejs');
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/test', (req, res) => { 
-  zabbixSender('send.email', 1)
+  zabbixSender('user.test', 1)
   res.status(200).json({ message: 'Hello DevOps' })
 });
 
